@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto de Cirugía Dr. Luis Manuel Cano | Cirugía de excelencia</title>
+  <meta name="description" content="Instituto de Cirugía Dr. Luis Manuel Cano: cirugía general, laparoscópica, bariátrica y de mínima invasión con atención humana, tecnología de vanguardia y seguimiento personalizado.">
+  <meta name="theme-color" content="#0b2545">
+  <meta property="og:title" content="Instituto de Cirugía Dr. Luis Manuel Cano">
+  <meta property="og:description" content="Cirugía de excelencia con trato humano. Agenda tu valoración.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <!-- SVG sprite de íconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></g></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+      <symbol id="i-scope" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></g></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></g></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></g></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></g></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 12.9 17 22l-5-3-5 3 1.5-9.1"/></g></symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5c0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3M12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 0 1 12 2.2a9.8 9.8 0 0 1 9.8 9.8 9.8 9.8 0 0 1-9.8 9.8m8.4-18.2A11.8 11.8 0 0 0 1.7 17.8L0 24l6.3-1.7a11.8 11.8 0 0 0 17.5-10.3c0-3.1-1.2-6.1-3.4-8.4"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-bed" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></g></symbol>
+      <symbol id="i-activity" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+      <symbol id="i-scissors" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></g></symbol>
+      <symbol id="i-sparkle" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3l1.9 5.8L20 10.7l-6.1 1.9L12 18.5l-1.9-5.9L4 10.7l6.1-1.9z M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></g></symbol>
+      <symbol id="i-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></g></symbol>
+      <symbol id="i-chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-4 0-5 3-5 5v2H6v4h3v11h5V12h3.6l.4-4z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></g></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.8 3z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ BARRA SUPERIOR ============ -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__info">
+        <a href="tel:+520000000000"><svg class="ico"><use href="#i-phone"/></svg> (000) 000 0000</a>
+        <span><svg class="ico"><use href="#i-clock"/></svg> Lun – Vie 9:00 – 19:00 · Sáb 9:00 – 14:00</span>
+      </div>
+      <div class="topbar__urgent">
+        <span class="pulse-dot"></span> Atención de urgencias quirúrgicas 24/7
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="brand" aria-label="Inicio">
+        <span class="brand__mark">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 7v26M7 20h26" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/><circle cx="20" cy="20" r="4" fill="#c9a24b"/></svg>
+        </span>
+        <span class="brand__text">
+          <strong>Dr. Luis Manuel Cano</strong>
+          <small>Instituto de Cirugía</small>
+        </span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Principal">
+        <a href="#nosotros">El Doctor</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#proceso">Tu proceso</a>
+        <a href="#instalaciones">Instalaciones</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#faq">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#contacto" class="btn btn--primary nav__cta-mobile">Agendar valoración</a>
+      </nav>
+      <a href="#contacto" class="btn btn--primary nav__cta">Agendar valoración</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow eyebrow--light reveal"><svg class="ico"><use href="#i-award"/></svg> Cirujano certificado · Más de 20 años de experiencia</span>
+          <h1 class="reveal">Cirugía de excelencia,<br><em>con el trato humano</em> que mereces.</h1>
+          <p class="hero__lead reveal">En el Instituto de Cirugía Dr. Luis Manuel Cano combinamos técnicas de mínima invasión, tecnología de vanguardia y un acompañamiento cercano en cada etapa, para que vuelvas a tu vida más rápido y con total confianza.</p>
+          <div class="hero__actions reveal">
+            <a href="#contacto" class="btn btn--gold btn--lg">Agenda tu valoración <svg class="ico"><use href="#i-arrow"/></svg></a>
+            <a href="#especialidades" class="btn btn--ghost btn--lg">Conoce las especialidades</a>
+          </div>
+          <ul class="hero__trust reveal">
+            <li><svg class="ico"><use href="#i-check"/></svg> Valoración personalizada</li>
+            <li><svg class="ico"><use href="#i-check"/></svg> Recuperación acelerada</li>
+            <li><svg class="ico"><use href="#i-check"/></svg> Seguimiento post-operatorio</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="doctor-card">
+            <div class="doctor-card__photo">
+              <!-- Reemplazar por la fotografía profesional del doctor: <img src="assets/doctor.jpg" alt="Dr. Luis Manuel Cano"> -->
+              <svg viewBox="0 0 300 360" class="doctor-silhouette" aria-hidden="true">
+                <defs>
+                  <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe9f1"/></linearGradient>
+                  <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9c4a6"/><stop offset="1" stop-color="#d4a684"/></linearGradient>
+                </defs>
+                <path d="M40 360c0-80 40-120 110-128 70 8 110 48 110 128z" fill="url(#coat)"/>
+                <path d="M118 236l32 70 32-70" fill="#0e7c86"/>
+                <path d="M150 306l-14-40 14-30 14 30z" fill="#0b2545"/>
+                <path d="M96 250c10 30 20 60 54 110M204 250c-10 30-20 60-54 110" stroke="#c7d6e2" stroke-width="3" fill="none"/>
+                <path d="M88 268c-6 24 0 48 18 60" stroke="#566b80" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <circle cx="108" cy="330" r="9" fill="#566b80"/>
+                <rect x="132" y="190" width="36" height="50" rx="14" fill="url(#skin)"/>
+                <ellipse cx="150" cy="140" rx="54" ry="64" fill="url(#skin)"/>
+                <path d="M96 128c0-44 24-66 56-66s54 24 52 62c-8-20-26-30-52-30s-46 12-56 34z" fill="#2c2f36"/>
+              </svg>
+              <div class="doctor-card__badge">
+                <svg class="ico"><use href="#i-shield"/></svg>
+                <div><strong>Certificado</strong><span>Consejo de Cirugía</span></div>
+              </div>
+            </div>
+            <div class="doctor-card__body">
+              <h3>Dr. Luis Manuel Cano</h3>
+              <p>Director médico · Cirujano general y laparoscopista</p>
+              <div class="rating">
+                <span class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+                <span>4.9 · opiniones de pacientes</span>
+              </div>
+            </div>
+          </div>
+          <div class="float-chip float-chip--1">
+            <span class="float-chip__icon"><svg class="ico"><use href="#i-heart"/></svg></span>
+            <div><strong>98%</strong><span>pacientes satisfechos</span></div>
+          </div>
+          <div class="float-chip float-chip--2">
+            <span class="float-chip__icon float-chip__icon--gold"><svg class="ico"><use href="#i-activity"/></svg></span>
+            <div><strong>Mínima invasión</strong><span>menos dolor, menos cicatriz</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat"><strong data-count="20" data-suffix="+">0</strong><span>Años de experiencia</span></div>
+          <div class="stat"><strong data-count="5000" data-suffix="+">0</strong><span>Cirugías realizadas</span></div>
+          <div class="stat"><strong data-count="98" data-suffix="%">0</strong><span>Satisfacción de pacientes</span></div>
+          <div class="stat"><strong data-count="24" data-suffix="/7">0</strong><span>Atención de urgencias</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FRANJA DE CONFIANZA ============ -->
+    <section class="trustbar" aria-label="Respaldo">
+      <div class="container trustbar__inner">
+        <span class="trustbar__label">Respaldo y convenios</span>
+        <div class="marquee">
+          <div class="marquee__track">
+            <span>Consejo de Cirugía General</span><span>Asociación de Cirugía Endoscópica</span><span>Principales aseguradoras</span><span>Hospitales certificados</span><span>Colegio de Cirujanos</span><span>Gastos médicos mayores</span>
+            <span aria-hidden="true">Consejo de Cirugía General</span><span aria-hidden="true">Asociación de Cirugía Endoscópica</span><span aria-hidden="true">Principales aseguradoras</span><span aria-hidden="true">Hospitales certificados</span><span aria-hidden="true">Colegio de Cirujanos</span><span aria-hidden="true">Gastos médicos mayores</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE EL DOCTOR ============ -->
+    <section class="section about" id="nosotros">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="about__frame">
+            <div class="about__monogram">LMC</div>
+            <div class="about__quote">
+              <svg class="ico ico--quote" viewBox="0 0 24 24"><path fill="currentColor" d="M7 7h4v4H8c0 2 1 3 3 3v3c-4 0-6-2-6-6V7zm9 0h4v4h-3c0 2 1 3 3 3v3c-4 0-6-2-6-6V7z"/></svg>
+              <p>“Cada paciente es único. Mi compromiso es ofrecer la cirugía más segura, con la mejor técnica y con la cercanía que una persona necesita en uno de los momentos más importantes de su vida.”</p>
+              <span>— Dr. Luis Manuel Cano</span>
+            </div>
+          </div>
+          <div class="about__years">
+            <strong>20+</strong>
+            <span>años transformando vidas</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <span class="eyebrow reveal">Conoce al doctor</span>
+          <h2 class="reveal">Experiencia, precisión y <em>vocación</em> de servicio</h2>
+          <p class="reveal">El Dr. Luis Manuel Cano es cirujano general certificado, con alta especialidad en cirugía laparoscópica y de mínima invasión. A lo largo de su trayectoria ha dedicado su práctica a ofrecer procedimientos seguros, con tiempos de recuperación más cortos y resultados que devuelven a sus pacientes la tranquilidad y la calidad de vida.</p>
+          <p class="reveal">Fundó el Instituto de Cirugía con una idea clara: que cada paciente reciba una atención integral, desde la primera consulta hasta su alta definitiva, rodeado de un equipo multidisciplinario y con la tecnología más actual.</p>
+
+          <ul class="timeline reveal">
+            <li><span class="timeline__dot"></span><div><strong>Médico Cirujano</strong><p>Formación de licenciatura en medicina y cirugía.</p></div></li>
+            <li><span class="timeline__dot"></span><div><strong>Especialidad en Cirugía General</strong><p>Residencia hospitalaria de alto volumen quirúrgico.</p></div></li>
+            <li><span class="timeline__dot"></span><div><strong>Alta especialidad en Cirugía Laparoscópica</strong><p>Entrenamiento avanzado en mínima invasión.</p></div></li>
+            <li><span class="timeline__dot"></span><div><strong>Certificación vigente del Consejo</strong><p>Actualización médica continua y miembro de colegios de cirujanos.</p></div></li>
+          </ul>
+
+          <div class="about__signature reveal">
+            <div class="signature">Luis Manuel Cano</div>
+            <a href="#contacto" class="btn btn--primary">Agenda una consulta <svg class="ico"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESPECIALIDADES ============ -->
+    <section class="section services" id="especialidades">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Especialidades</span>
+          <h2>Procedimientos quirúrgicos <em>a tu medida</em></h2>
+          <p>Ofrecemos un abanico completo de cirugías con enfoque en técnicas de mínima invasión, que significan menos dolor, cicatrices más pequeñas y un regreso más rápido a tus actividades.</p>
+        </div>
+
+        <div class="services__filters reveal" role="tablist" aria-label="Filtrar especialidades">
+          <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Todas</button>
+          <button class="chip" data-filter="general" role="tab" aria-selected="false">Cirugía general</button>
+          <button class="chip" data-filter="mini" role="tab" aria-selected="false">Mínima invasión</button>
+          <button class="chip" data-filter="metabolica" role="tab" aria-selected="false">Metabólica</button>
+        </div>
+
+        <div class="services__grid">
+          <article class="service reveal" data-cat="mini general">
+            <div class="service__icon"><svg class="ico"><use href="#i-scope"/></svg></div>
+            <h3>Cirugía laparoscópica</h3>
+            <p>Procedimientos a través de pequeñas incisiones con cámara de alta definición. Menos dolor y alta en menos tiempo.</p>
+            <button class="service__more" data-service="laparoscopica">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="general mini">
+            <div class="service__icon"><svg class="ico"><use href="#i-target"/></svg></div>
+            <h3>Vesícula biliar</h3>
+            <p>Colecistectomía laparoscópica para cálculos biliares y colecistitis, con recuperación en pocos días.</p>
+            <button class="service__more" data-service="vesicula">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="general mini">
+            <div class="service__icon"><svg class="ico"><use href="#i-layers"/></svg></div>
+            <h3>Hernias</h3>
+            <p>Reparación de hernias inguinales, umbilicales y de pared abdominal con mallas de última generación.</p>
+            <button class="service__more" data-service="hernias">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="metabolica mini">
+            <div class="service__icon"><svg class="ico"><use href="#i-activity"/></svg></div>
+            <h3>Cirugía bariátrica</h3>
+            <p>Manga gástrica y bypass gástrico para el tratamiento de la obesidad y sus enfermedades asociadas.</p>
+            <button class="service__more" data-service="bariatrica">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="general">
+            <div class="service__icon"><svg class="ico"><use href="#i-heart"/></svg></div>
+            <h3>Apéndice y urgencias</h3>
+            <p>Atención inmediata de apendicitis y abdomen agudo, con disponibilidad para urgencias las 24 horas.</p>
+            <button class="service__more" data-service="urgencias">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="metabolica mini">
+            <div class="service__icon"><svg class="ico"><use href="#i-sparkle"/></svg></div>
+            <h3>Reflujo y hernia hiatal</h3>
+            <p>Funduplicatura laparoscópica para el control definitivo del reflujo gastroesofágico.</p>
+            <button class="service__more" data-service="reflujo">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="general">
+            <div class="service__icon"><svg class="ico"><use href="#i-scissors"/></svg></div>
+            <h3>Cirugía de piel y tejidos blandos</h3>
+            <p>Retiro de lipomas, quistes y lunares con técnica cuidadosa y excelente resultado estético.</p>
+            <button class="service__more" data-service="piel">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+          <article class="service reveal" data-cat="general mini">
+            <div class="service__icon"><svg class="ico"><use href="#i-shield"/></svg></div>
+            <h3>Cirugía proctológica</h3>
+            <p>Tratamiento de hemorroides, fisuras y fístulas con técnicas modernas y menos molestias.</p>
+            <button class="service__more" data-service="procto">Ver detalles <svg class="ico"><use href="#i-arrow"/></svg></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ POR QUÉ ELEGIRNOS ============ -->
+    <section class="section why">
+      <div class="container why__grid">
+        <div class="why__intro">
+          <span class="eyebrow eyebrow--light reveal">¿Por qué elegirnos?</span>
+          <h2 class="reveal">Tu seguridad es nuestra <em>prioridad absoluta</em></h2>
+          <p class="reveal">Cada detalle del instituto está pensado para que vivas tu cirugía con confianza: desde los protocolos de seguridad hasta la comunicación directa con tu cirujano.</p>
+          <a href="#contacto" class="btn btn--gold reveal">Habla con nosotros <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="why__cards">
+          <div class="why-card reveal"><svg class="ico"><use href="#i-shield"/></svg><h3>Protocolos de seguridad</h3><p>Lista de verificación quirúrgica y estándares internacionales en cada procedimiento.</p></div>
+          <div class="why-card reveal"><svg class="ico"><use href="#i-cpu"/></svg><h3>Tecnología de vanguardia</h3><p>Torres de laparoscopía en alta definición y equipo de energía avanzada.</p></div>
+          <div class="why-card reveal"><svg class="ico"><use href="#i-users"/></svg><h3>Equipo multidisciplinario</h3><p>Anestesiólogos, nutriólogos, internistas y enfermería especializada.</p></div>
+          <div class="why-card reveal"><svg class="ico"><use href="#i-heart"/></svg><h3>Trato humano y cercano</h3><p>Comunicación directa con tu cirujano antes, durante y después de tu cirugía.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESO ============ -->
+    <section class="section process" id="proceso">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Tu proceso</span>
+          <h2>Te acompañamos <em>en cada paso</em></h2>
+          <p>Un camino claro y sin sorpresas, diseñado para que sepas exactamente qué esperar.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <div class="step__icon"><svg class="ico"><use href="#i-calendar"/></svg></div>
+            <h3>Valoración inicial</h3>
+            <p>Consulta detallada, revisión de estudios y explicación clara de tu diagnóstico y opciones.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <div class="step__icon"><svg class="ico"><use href="#i-activity"/></svg></div>
+            <h3>Plan personalizado</h3>
+            <p>Estudios pre-operatorios, presupuesto transparente y preparación integral para tu cirugía.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <div class="step__icon"><svg class="ico"><use href="#i-scope"/></svg></div>
+            <h3>Cirugía segura</h3>
+            <p>Procedimiento en hospital certificado con técnica de mínima invasión siempre que sea posible.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <div class="step__icon"><svg class="ico"><use href="#i-bed"/></svg></div>
+            <h3>Recuperación y seguimiento</h3>
+            <p>Consultas post-operatorias y línea directa para resolver cualquier duda durante tu recuperación.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ INSTALACIONES ============ -->
+    <section class="section facilities" id="instalaciones">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Instalaciones</span>
+          <h2>Espacios pensados para <em>tu comodidad</em></h2>
+          <p>Consultorios modernos y hospitales aliados con la infraestructura necesaria para cirugías seguras.</p>
+        </div>
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--lg reveal">
+            <div class="gallery__art art--or"><svg class="ico"><use href="#i-scope"/></svg></div>
+            <figcaption><strong>Quirófanos de alta tecnología</strong><span>Equipo laparoscópico en alta definición</span></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <div class="gallery__art art--consult"><svg class="ico"><use href="#i-users"/></svg></div>
+            <figcaption><strong>Consultorio</strong><span>Atención privada y personalizada</span></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <div class="gallery__art art--recovery"><svg class="ico"><use href="#i-bed"/></svg></div>
+            <figcaption><strong>Recuperación</strong><span>Habitaciones cómodas y seguras</span></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <div class="gallery__art art--lab"><svg class="ico"><use href="#i-activity"/></svg></div>
+            <figcaption><strong>Monitoreo</strong><span>Vigilancia continua del paciente</span></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <div class="gallery__art art--wait"><svg class="ico"><use href="#i-heart"/></svg></div>
+            <figcaption><strong>Sala de espera</strong><span>Un ambiente cálido para ti y tu familia</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="section testimonials" id="testimonios">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Testimonios</span>
+          <h2>Lo que dicen <em>nuestros pacientes</em></h2>
+        </div>
+        <div class="slider reveal" id="slider">
+          <div class="slider__track">
+            <blockquote class="testimonial">
+              <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <p>“Me operaron de la vesícula y al día siguiente ya estaba en casa. El doctor me explicó todo con mucha paciencia y siempre respondió mis dudas. Totalmente recomendable.”</p>
+              <footer><span class="avatar">MG</span><div><strong>María G.</strong><span>Colecistectomía laparoscópica</span></div></footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <p>“Después de años con una hernia por fin me decidí. La atención fue impecable desde la primera consulta y la recuperación mucho más rápida de lo que esperaba.”</p>
+              <footer><span class="avatar">JR</span><div><strong>Jorge R.</strong><span>Reparación de hernia inguinal</span></div></footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <p>“La cirugía bariátrica me cambió la vida. El equipo de nutrición y el seguimiento del doctor fueron clave. Me sentí acompañada en todo momento.”</p>
+              <footer><span class="avatar">AL</span><div><strong>Ana L.</strong><span>Manga gástrica</span></div></footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+              <p>“Llegué de urgencia con apendicitis a media noche y me atendieron de inmediato. Profesionalismo y calidez humana en todo el equipo.”</p>
+              <footer><span class="avatar">CP</span><div><strong>Carlos P.</strong><span>Apendicectomía de urgencia</span></div></footer>
+            </blockquote>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" data-dir="-1" aria-label="Anterior"><svg class="ico" style="transform:rotate(180deg)"><use href="#i-arrow"/></svg></button>
+            <div class="slider__dots" role="tablist" aria-label="Seleccionar testimonio"></div>
+            <button class="slider__btn" data-dir="1" aria-label="Siguiente"><svg class="ico"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>¿Tienes dudas sobre tu diagnóstico?</h2>
+          <p>Agenda una valoración y recibe una opinión experta, clara y honesta sobre las opciones para tu caso.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a href="#contacto" class="btn btn--gold btn--lg">Agendar valoración</a>
+          <a href="https://wa.me/520000000000" target="_blank" rel="noopener" class="btn btn--ghost btn--lg"><svg class="ico"><use href="#i-whatsapp"/></svg> WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" id="faq">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <span class="eyebrow reveal">Preguntas frecuentes</span>
+          <h2 class="reveal">Resolvemos <em>tus dudas</em></h2>
+          <p class="reveal">Si no encuentras la respuesta que buscas, escríbenos y con gusto te orientamos.</p>
+          <a href="#contacto" class="btn btn--primary reveal">Contáctanos <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="accordion">
+          <details class="acc reveal" open>
+            <summary>¿Qué es la cirugía de mínima invasión? <svg class="ico"><use href="#i-chev"/></svg></summary>
+            <p>Es una técnica que se realiza a través de pequeñas incisiones (de 5 a 12 mm) utilizando una cámara y un instrumental especializado. Comparada con la cirugía abierta, produce menos dolor, menor riesgo de infección, cicatrices más pequeñas y una recuperación más rápida.</p>
+          </details>
+          <details class="acc reveal">
+            <summary>¿Cuánto tiempo tarda la recuperación? <svg class="ico"><use href="#i-chev"/></svg></summary>
+            <p>Depende del procedimiento. En cirugías laparoscópicas como vesícula o hernia, la mayoría de los pacientes regresan a casa el mismo día o al día siguiente y retoman actividades ligeras en una a dos semanas.</p>
+          </details>
+          <details class="acc reveal">
+            <summary>¿Aceptan seguros de gastos médicos? <svg class="ico"><use href="#i-chev"/></svg></summary>
+            <p>Sí. Trabajamos con las principales aseguradoras y te apoyamos con el trámite. También contamos con opciones de pago y presupuestos transparentes para pacientes particulares.</p>
+          </details>
+          <details class="acc reveal">
+            <summary>¿Qué debo llevar a mi primera consulta? <svg class="ico"><use href="#i-chev"/></svg></summary>
+            <p>Trae una identificación, tus estudios previos (laboratorios, ultrasonidos, tomografías), la lista de medicamentos que tomas y, si aplica, los datos de tu póliza de seguro.</p>
+          </details>
+          <details class="acc reveal">
+            <summary>¿Atienden urgencias? <svg class="ico"><use href="#i-chev"/></svg></summary>
+            <p>Sí, contamos con atención de urgencias quirúrgicas las 24 horas, los 7 días de la semana. Comunícate a nuestra línea directa y te indicaremos a qué hospital acudir.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact" id="contacto">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="eyebrow reveal">Contacto</span>
+          <h2 class="reveal">Agenda tu <em>valoración</em></h2>
+          <p class="reveal">Déjanos tus datos y nuestro equipo se comunicará contigo para confirmar tu cita en el horario que mejor te acomode.</p>
+          <ul class="contact__list reveal">
+            <li><span class="contact__icon"><svg class="ico"><use href="#i-pin"/></svg></span><div><strong>Dirección</strong><span>Av. Principal #000, Col. Centro, Ciudad</span></div></li>
+            <li><span class="contact__icon"><svg class="ico"><use href="#i-phone"/></svg></span><div><strong>Teléfono</strong><a href="tel:+520000000000">(000) 000 0000</a></div></li>
+            <li><span class="contact__icon"><svg class="ico"><use href="#i-mail"/></svg></span><div><strong>Correo</strong><a href="mailto:contacto@drluismanuelcano.com">contacto@drluismanuelcano.com</a></div></li>
+            <li><span class="contact__icon"><svg class="ico"><use href="#i-clock"/></svg></span><div><strong>Horario</strong><span>Lun – Vie 9:00 – 19:00 · Sáb 9:00 – 14:00</span></div></li>
+          </ul>
+          <div class="map reveal" aria-label="Mapa de ubicación">
+            <div class="map__pin"><svg class="ico"><use href="#i-pin"/></svg></div>
+            <span>Aquí se integrará el mapa de Google con la ubicación del consultorio</span>
+          </div>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <h3>Solicitar cita</h3>
+          <p class="form__sub">Respuesta en menos de 24 horas hábiles.</p>
+          <div class="form__row">
+            <label class="field"><span>Nombre completo</span><input type="text" name="nombre" required placeholder="Tu nombre"></label>
+            <label class="field"><span>Teléfono</span><input type="tel" name="telefono" required placeholder="10 dígitos"></label>
+          </div>
+          <label class="field"><span>Correo electrónico</span><input type="email" name="email" placeholder="tucorreo@ejemplo.com"></label>
+          <label class="field"><span>Motivo de consulta</span>
+            <select name="motivo" required>
+              <option value="">Selecciona una opción</option>
+              <option>Cirugía laparoscópica</option>
+              <option>Vesícula biliar</option>
+              <option>Hernias</option>
+              <option>Cirugía bariátrica</option>
+              <option>Reflujo / hernia hiatal</option>
+              <option>Cirugía proctológica</option>
+              <option>Otro / segunda opinión</option>
+            </select>
+          </label>
+          <label class="field"><span>Mensaje (opcional)</span><textarea name="mensaje" rows="3" placeholder="Cuéntanos brevemente tu caso"></textarea></label>
+          <label class="check"><input type="checkbox" required> <span>Acepto el aviso de privacidad y el tratamiento de mis datos.</span></label>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Enviar solicitud por WhatsApp <svg class="ico"><use href="#i-whatsapp"/></svg></button>
+          <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="brand brand--light">
+          <span class="brand__mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 7v26M7 20h26" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/><circle cx="20" cy="20" r="4" fill="#c9a24b"/></svg></span>
+          <span class="brand__text"><strong>Dr. Luis Manuel Cano</strong><small>Instituto de Cirugía</small></span>
+        </a>
+        <p>Cirugía de excelencia con trato humano. Tecnología, experiencia y seguimiento personalizado para tu tranquilidad.</p>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><svg class="ico"><use href="#i-facebook"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg class="ico"><use href="#i-youtube"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Instituto</h4>
+        <ul><li><a href="#nosotros">El Doctor</a></li><li><a href="#proceso">Tu proceso</a></li><li><a href="#instalaciones">Instalaciones</a></li><li><a href="#testimonios">Testimonios</a></li></ul>
+      </div>
+      <div>
+        <h4>Especialidades</h4>
+        <ul><li><a href="#especialidades">Laparoscopía</a></li><li><a href="#especialidades">Vesícula</a></li><li><a href="#especialidades">Hernias</a></li><li><a href="#especialidades">Bariátrica</a></li></ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul><li>(000) 000 0000</li><li>contacto@drluismanuelcano.com</li><li>Av. Principal #000, Ciudad</li></ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Instituto de Cirugía Dr. Luis Manuel Cano. Todos los derechos reservados.</span>
+      <span>Cédula profesional: 0000000 · Cédula de especialidad: 0000000</span>
+    </div>
+  </footer>
+
+  <!-- Modal de especialidad -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close aria-label="Cerrar"><svg class="ico" style="transform:rotate(45deg)"><use href="#i-plus"/></svg></button>
+      <span class="eyebrow" id="modalTag">Especialidad</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <ul id="modalList" class="modal__list"></ul>
+      <div class="modal__meta" id="modalMeta"></div>
+      <a href="#contacto" class="btn btn--primary" data-close>Agendar valoración <svg class="ico"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+
+  <a href="https://wa.me/520000000000" class="wa-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg class="ico"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__label">¿Dudas? Escríbenos</span>
+  </a>
+  <button class="to-top" id="toTop" aria-label="Volver arriba"><svg class="ico" style="transform:rotate(-90deg)"><use href="#i-arrow"/></svg></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
