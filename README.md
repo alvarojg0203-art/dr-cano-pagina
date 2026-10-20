@@ -4,11 +4,11 @@ Sitio informativo de una sola página (HTML + CSS + JavaScript, sin dependencias
 
 ## Ver el sitio
 
-Abre `index.html` en el navegador, o sírvelo localmente:
+Abre `index.html` en el navegador, o levanta un servidor local con recarga automática (requiere Node.js):
 
 ```bash
-python3 -m http.server 8000
-# http://localhost:8000
+npm run dev
+# abre http://localhost:3000 y recarga la página al guardar cambios
 ```
 
 Se puede publicar tal cual en GitHub Pages, Netlify o Vercel.
